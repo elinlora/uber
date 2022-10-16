@@ -12,6 +12,7 @@
     <mj-attributes>
 
       <mj-class name="bg-white" background-color="#ffffff" />
+      <mj-class name="bg-black" background-color="#000000" />
       <mj-class name="col-heading" font-size="24px" />
       <mj-class name="col-body" font-size="16px" />
     
@@ -269,7 +270,7 @@
   </mj-hero>
 
   <!-- ======> Footer <====== -->
-  <!-- <mj-include path="components/footer.mjml" /> -->
+  <mj-include path="components/footer.mjml" />
 
   </mj-body>
 </mjml>
