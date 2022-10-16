@@ -53,6 +53,9 @@
     .container {
       padding: 0 60px;
     }
+    .divider {
+        width: 80%;
+    }
     @media only screen and (max-width: 599.8px) {
       .hero {
         width: 100%;
@@ -63,12 +66,6 @@
       .container {
         padding: 0 21px;
       }
-      .divider {
-        width: 80%;
-      }
-      .iphone {
-        padding-top: 3em;
-      }
     }
     @media only screen and (max-width: 479.8px) {
       .pad-top {
@@ -76,6 +73,9 @@
       }
       .divider {
         width: 90%;
+      }
+      .phone {
+        padding-top: 45px;
       }
     }
     </mj-style>
@@ -182,29 +182,11 @@
     </mj-column>
   </mj-section>
 
-  <!-- ======> Divider <====== -->
-  <mj-section mj-class="bg-white">
-    <mj-column>
-      <mj-text>
-        <table
-          cellspacing="0"
-          cellpadding="0"
-          role="presentation"
-          border="0"
-          align="center">
-          <tr>
-            <td align="center" style="border-top: 1px solid rgb(191, 191, 191);"></td>
-          </tr>
-        </table>
-      </mj-text>
-    </mj-column>
-  </mj-section>
-
   <!-- ======> How it works Section <====== -->
-  <mj-section mj-class="bg-white" css-class="container" padding-top="50px" padding-bottom="30px">
+  <mj-section mj-class="bg-white" css-class="container" padding="15px 0">
     <mj-column>
       <mj-text font-size="28px">
-        How it work
+        How it works
       </mj-text>
       <mj-text padding-top="20px">
         <table
@@ -234,8 +216,8 @@
         <a href="#"></a>
       </mj-text>
     </mj-column>
-    <mj-column>
-      <mj-image css-class="iphone" src="img/iphone.gif" alt="Iphone" />
+    <mj-column css-class="phone">
+      <mj-image src="img/iphone.gif" alt="Iphone" />
     </mj-column>
   </mj-section>
 
