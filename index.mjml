@@ -10,6 +10,9 @@
     <mj-font name="Nunito" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" />
 
     <mj-attributes>
+
+      <mj-class name="bg-white" background-color="#ffffff" />
+      <mj-class name="container" padding-left="45px" padding-right="45px" />
     
       <mj-text padding="0" font-family="Nunito" />
       <mj-wrapper padding="0" />
@@ -58,6 +61,7 @@
   </mj-head>
   <mj-body background-color="#d6d6d5">
 
+  <!-- ======> Hero <====== -->
   <mj-hero
     mode="fixed-height"
     height="774px"
@@ -129,6 +133,28 @@
       </table>
     </mj-text>
   </mj-hero>
+
+  <!-- ======> 2 Column Section <====== -->
+  <mj-section mj-class="bg-white container" padding-top="40px">
+    <mj-column>
+      <mj-image align="left" src="img/col-1-img.png" alt="Donut" width="78px"/>
+      <mj-text>
+        More affordable options
+      </mj-text>
+      <mj-text>
+        We’ve introduced a range of booking fees based on your proximity to a restaurant. That means delivery for the sushi joint around the corner might be cheaper than tacos from across town.
+      </mj-text>
+    </mj-column>
+    <mj-column>
+      <mj-image align="left" src="img/col-2-img.png" alt="Donut" width="78px"/>
+      <mj-text>
+        More affordable options
+      </mj-text>
+      <mj-text>
+        We’ve introduced a range of booking fees based on your proximity to a restaurant. That means delivery for the sushi joint around the corner might be cheaper than tacos from across town.
+      </mj-text>
+    </mj-column>
+  </mj-section>
 
   </mj-body>
 </mjml>
