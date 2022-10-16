@@ -64,9 +64,9 @@
   <!-- ======> Hero <====== -->
   <mj-hero
     mode="fixed-height"
-    height="774px"
+    height="700px"
     background-width="600px"
-    background-height="774px"
+    background-height="700px"
     background-url="img/hero-bg.jpeg"
     background-color="green"
     >
