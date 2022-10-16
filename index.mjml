@@ -63,6 +63,20 @@
       .container {
         padding: 0 21px;
       }
+      .divider {
+        width: 80%;
+      }
+      .iphone {
+        padding-top: 3em;
+      }
+    }
+    @media only screen and (max-width: 479.8px) {
+      .pad-top {
+        padding-top: 20px;
+      }
+      .divider {
+        width: 90%;
+      }
     }
     </mj-style>
   </mj-head>
@@ -126,7 +140,7 @@
               </tr>
               <tr>
                 <td style="padding-top: 1.5em;">
-                  <a href="#" style="background-color: #299129; padding: 1.25em 1.75em; color: #ffffff; display: inline-block;">
+                  <a href="#" style="background-color: #299129; padding: 1.25em 1.75em; font-size: 15px; color: #ffffff; display: inline-block;">
                     <span style="float: left;">Order now</span>
                     <span style="float: right; padding-left: .5em; padding-top: .06em;">
                       <img src="img/arrow-right.png" alt="Right Arrow" style="width: 13px;">
@@ -142,24 +156,86 @@
   </mj-hero>
 
   <!-- ======> 2 Column Section <====== -->
-  <mj-section mj-class="bg-white" css-class="container" padding-top="40px">
-    <mj-column>
+  <mj-section mj-class="bg-white" css-class="container" padding-top="40px" padding-bottom="60px">
+    <mj-column width="47.5%">
       <mj-image align="left" src="img/col-1-img.png" alt="Donut" width="78px"/>
-      <mj-text mj-class="col-heading">
+      <mj-text mj-class="col-heading" padding-top="30px">
         More affordable options
       </mj-text>
-      <mj-text mj-class="col-body">
+      <mj-text mj-class="col-body" padding-top="15px">
         We’ve introduced a range of booking fees based on your proximity to a restaurant. That means delivery for the sushi joint around the corner might be cheaper than tacos from across town.
       </mj-text>
     </mj-column>
-    <mj-column>
+    <mj-column width="5%">
+      <mj-text>
+        &nbsp;
+      </mj-text>
+    </mj-column>
+    <mj-column width="47.5%" css-class="pad-top">
       <mj-image align="left" src="img/col-2-img.png" alt="Donut" width="78px"/>
-      <mj-text mj-class="col-heading">
+      <mj-text mj-class="col-heading" padding-top="30px">
         More affordable options
       </mj-text>
-      <mj-text mj-class="col-body">
-        We’ve introduced a range of booking fees based on your proximity to a restaurant. That means delivery for the sushi joint around the corner might be cheaper than tacos from across town.
+      <mj-text mj-class="col-body" padding-top="15px">
+        We’ve added lots of new restaurants. So whether you’re craving a decadent bacon cheeseburger or a post-workout snack, you’re guaranteed to find something to satisfy your hunger.
       </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- ======> Divider <====== -->
+  <mj-section mj-class="bg-white">
+    <mj-column>
+      <mj-text>
+        <table
+          cellspacing="0"
+          cellpadding="0"
+          role="presentation"
+          border="0"
+          align="center">
+          <tr>
+            <td align="center" style="border-top: 1px solid rgb(191, 191, 191);"></td>
+          </tr>
+        </table>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- ======> How it works Section <====== -->
+  <mj-section mj-class="bg-white" css-class="container" padding-top="50px" padding-bottom="30px">
+    <mj-column>
+      <mj-text font-size="28px">
+        How it work
+      </mj-text>
+      <mj-text padding-top="20px">
+        <table
+          width="100%";
+          cellspacing="0"
+          cellpadding="0"
+          role="presentation"
+          border="0"
+          align="center">
+          <tr>
+            <td>
+              <ol>
+                <li style="font-size: 16px; font-weight: 500; line-height: 22px;">Find exactly what you're craving or discover new favorites.</li>
+                <li style="font-size: 16px; font-weight: 500; line-height: 22px; padding-top: 1em;">Find exactly what you're craving or discover new favorites.</li>
+                <li style="font-size: 16px; font-weight: 500; line-height: 22px; padding-top: 1em;">Find exactly what you're craving or discover new favorites.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-top: .5em;">
+              <a href="#" style="font-size: 16px; color: #299129;">Order now<span style="padding-left: .6em; font-weight: 800;">></span></a>
+            </td>
+          </tr>
+        </table>
+      </mj-text>
+      <mj-text>
+        <a href="#"></a>
+      </mj-text>
+    </mj-column>
+    <mj-column>
+      <mj-image css-class="iphone" src="img/iphone.gif" alt="Iphone" />
     </mj-column>
   </mj-section>
 
