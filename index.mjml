@@ -12,7 +12,8 @@
     <mj-attributes>
 
       <mj-class name="bg-white" background-color="#ffffff" />
-      <mj-class name="container" padding-left="60px" padding-right="60px" />
+      <mj-class name="col-heading" font-size="24px" />
+      <mj-class name="col-body" font-size="16px" />
     
       <mj-text padding="0" font-family="Nunito" />
       <mj-wrapper padding="0" />
@@ -49,12 +50,18 @@
     .hero-pad {
       padding: 0 3em 2em;
     }
+    .container {
+      padding: 0 60px;
+    }
     @media only screen and (max-width: 599.8px) {
       .hero {
         width: 100%;
       }
       .hero-pad {
         padding: 0 1.8em 2em;
+      }
+      .container {
+        padding: 0 21px;
       }
     }
     </mj-style>
@@ -135,22 +142,22 @@
   </mj-hero>
 
   <!-- ======> 2 Column Section <====== -->
-  <mj-section mj-class="bg-white container" padding-top="40px">
+  <mj-section mj-class="bg-white" css-class="container" padding-top="40px">
     <mj-column>
       <mj-image align="left" src="img/col-1-img.png" alt="Donut" width="78px"/>
-      <mj-text>
+      <mj-text mj-class="col-heading">
         More affordable options
       </mj-text>
-      <mj-text>
+      <mj-text mj-class="col-body">
         We’ve introduced a range of booking fees based on your proximity to a restaurant. That means delivery for the sushi joint around the corner might be cheaper than tacos from across town.
       </mj-text>
     </mj-column>
     <mj-column>
       <mj-image align="left" src="img/col-2-img.png" alt="Donut" width="78px"/>
-      <mj-text>
+      <mj-text mj-class="col-heading">
         More affordable options
       </mj-text>
-      <mj-text>
+      <mj-text mj-class="col-body">
         We’ve introduced a range of booking fees based on your proximity to a restaurant. That means delivery for the sushi joint around the corner might be cheaper than tacos from across town.
       </mj-text>
     </mj-column>
