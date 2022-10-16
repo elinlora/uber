@@ -89,7 +89,7 @@
     background-width="600px"
     background-height="700px"
     background-url="img/hero-bg.jpeg"
-    background-color="green"
+    background-color="#299129"
     >
     <mj-text>
       <table
@@ -183,7 +183,7 @@
   </mj-section>
 
   <!-- ======> How it works Section <====== -->
-  <mj-section mj-class="bg-white" css-class="container" padding="15px 0">
+  <mj-section mj-class="bg-white" css-class="container" padding="15px 0 30px">
     <mj-column>
       <mj-text font-size="28px">
         How it works
@@ -207,7 +207,7 @@
           </tr>
           <tr>
             <td style="padding-top: .5em;">
-              <a href="#" style="font-size: 16px; color: #299129;">Order now<span style="padding-left: .6em; font-weight: 800;">></span></a>
+              <a href="#" style="font-size: 18px; color: #299129;">Order now<span style="padding-left: .6em; font-weight: 800;">></span></a>
             </td>
           </tr>
         </table>
@@ -220,6 +220,56 @@
       <mj-image src="img/iphone.gif" alt="Iphone" />
     </mj-column>
   </mj-section>
+
+  <!-- ======> Top Footer Section <====== -->
+  <mj-hero
+    mode="fixed-height"
+    height="200px"
+    background-width="600px"
+    background-height="200px"
+    background-url="img/top-footer-bg.jpeg"
+    background-color="#6495ed">
+    <mj-text>
+      <table
+        width="100%"
+        cellspacing="0"
+        cellpadding="0"
+        role="presentation"
+        border="0"
+        align="0">
+        <tr>
+          <td class="container" style="padding-top: 2.4em; padding-bottom: 2.4em;">
+            <table
+              width="100%;"
+              cellspacing="0"
+              cellpadding="0"
+              role="presentation"
+              border="0"
+              align="0">
+              <tr>
+                <td>
+                  <p style="font-size: 16px;">See where you can get delivery with Uber Eats.</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top: 1em;">
+                  <a href="#" style="font-size: 18px; color: #299129;">Check availability<span style="padding-left: .6em; font-weight: 800;">></span></a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top: 4.5em;">
+                  <p style="font-size: 12px; line-height: 18px;">This discount expires at 11:55pm PT on 11/20/2018. It covers fees such as booking and busy area fees, but not food, drink, other order items, applicable taxes, or tips. The user must receive this email directly from Uber to be eligible and must apply the promo code in the app before completing their order. The promo code can be applied unlimited times during the promotional period.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </mj-text>
+  </mj-hero>
+
+  <!-- ======> Footer <====== -->
+  <!-- <mj-include path="components/footer.mjml" /> -->
 
   </mj-body>
 </mjml>
