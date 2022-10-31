@@ -81,34 +81,15 @@
     }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#d6d6d5">
+  <mj-body background-color="#f6f6f6">
 
   <!-- ======> Hero <====== -->
-  <mj-hero
-    mode="fixed-height"
-    height="700px"
-    background-width="600px"
-    background-height="700px"
-    background-url="img/hero-bg.jpeg"
-    background-color="#299129"
-    >
+  <mj-hero mode="fixed-height" height="700px" background-width="600px" background-height="700px" background-url="img/hero-bg.jpeg" background-color="#299129">
     <mj-text>
-      <table
-        class="hero"
-        cellspacing="0"
-        cellpadding="0"
-        role="presentation"
-        border="0"
-        align="center">
+      <table class="hero" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
         <tr>
           <td class="hero-pad" bgcolor="#ffffff">
-            <table
-              width="100%"
-              cellspacing="0"
-              cellpadding="0"
-              role="presentation"
-              border="0"
-              align="center">
+            <table  width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
               <tr>
                 <td>
                   <a href="#"><img src="img/header-logo.png" alt="Uber Eats" style="width: 148px;"></a>
@@ -223,30 +204,12 @@
   </mj-section>
 
   <!-- ======> Top Footer Section <====== -->
-  <mj-hero
-    mode="fixed-height"
-    height="200px"
-    background-width="600px"
-    background-height="200px"
-    background-url="img/top-footer-bg.jpeg"
-    background-color="#6495ed">
+  <mj-hero mode="fixed-height" height="200px" background-width="600px" background-height="200px" background-url="img/top-footer-bg.jpeg" background-color="#6495ed">
     <mj-text>
-      <table
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        role="presentation"
-        border="0"
-        align="0">
+      <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="0">
         <tr>
           <td class="container" style="padding-top: 2.4em; padding-bottom: 2.4em;">
-            <table
-              width="100%;"
-              cellspacing="0"
-              cellpadding="0"
-              role="presentation"
-              border="0"
-              align="0">
+            <table width="100%;" cellspacing="0" cellpadding="0" role="presentation" border="0" align="0">
               <tr>
                 <td>
                   <p style="font-size: 16px;">See where you can get delivery with Uber Eats.</p>

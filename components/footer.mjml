@@ -1,18 +1,10 @@
 <mj-section mj-class="bg-black">
   <mj-column>
     <mj-text color="#fff">
-      <table
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        role="presentation"
-        border="0"
-        align="center">
+      <table width="100%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="center">
         <tr>
           <td class="container" style="padding-top: 3em; padding-bottom: 3em;">
-            <table
-              width="50%"
-              align="left">
+            <table width="50%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
               <tr>
                 <td>
                   <a href="#" style="color: #fff;">Help center</a>
@@ -32,26 +24,14 @@
         </tr>
         <tr>
           <td class="container" style="padding-bottom: 3em;">
-            <table
-              width="50%"
-              cellspacing="0"
-              cellpadding="0"
-              role="presentation"
-              border="0"
-              align="left">
+            <table width="50%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="left">
               <tr>
                 <td>
                   <p style="font-size: 10px; line-height: 18px;">This is a promotional email from Uber Technologies 1455 Market St., San Francisco, CA 94103 Uber.com</p>
                 </td>
               </tr>
             </table>
-            <table
-              width="50%"
-              cellspacing="0"
-              cellpadding="0"
-              role="presentation"
-              border="0"
-              align="right">
+            <table width="50%" cellspacing="0" cellpadding="0" role="presentation" border="0" align="right">
               <tr>
                 <td align="center">
                   <a href="#"><img src="img/facebook.png" alt="Facebook" style="width: 15px;"></a>
